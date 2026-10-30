@@ -1,0 +1,91 @@
+@charset "UTF-8";
+:root{--paper:#fafaf8;--ink:#353633;--secondary:#686963;--line:#deded8;--serif:"Yu Mincho","Hiragino Mincho ProN","Noto Serif CJK JP",serif}
+*{box-sizing:border-box}html{background:var(--paper);color:var(--ink);scroll-behavior:smooth}body{margin:0;font-family:var(--serif);font-size:16px;line-height:2.35;-webkit-text-size-adjust:100%}h1,h2,h3,p,figure{margin:0}h1,h2,h3{font-weight:400}h2{font-size:clamp(25px,2.4vw,34px);line-height:1.9;letter-spacing:.16em}h3{font-size:28px;line-height:1.8;letter-spacing:.14em}img{display:block;max-width:100%;height:auto}a{color:inherit;text-decoration:none}a:hover{opacity:.65}a:focus-visible{outline:2px solid #64685b;outline-offset:6px}.section-container{width:calc(100% - 96px);max-width:1040px;margin-inline:auto}.eyebrow,.dish-kicker{font-size:12px;letter-spacing:.18em;color:var(--secondary)}.phone-number{font-variant-numeric:lining-nums tabular-nums;letter-spacing:.08em;line-height:1.5}.phone-number span{white-space:nowrap}.desktop-break{display:none}figcaption,.photo-note{font-size:11px;letter-spacing:.08em;color:var(--secondary)}figcaption{margin-top:16px}.hero{min-height:100svh;min-height:100vh;position:relative;isolation:isolate;display:grid;grid-template-rows:1fr;background:#f6f5f2;overflow:hidden}.hero-header{position:absolute;z-index:2;top:28px;right:40px}.header-phone{display:block;font-size:13px;min-height:44px;padding:10px}.hero-center{display:flex;justify-content:center;align-items:center;padding:120px 24px;position:relative}.shop-name{position:relative}.wordmark{width:auto;height:205px;opacity:.88}.shop-descriptor{position:absolute;writing-mode:vertical-rl;font-size:11px;letter-spacing:.23em;white-space:nowrap;right:-30px;top:6px}.hero-location{position:absolute;bottom:68px;font-size:11px;letter-spacing:.3em}.hero-bottom{position:absolute;bottom:0;left:50%;height:38px}.hero-bottom span{display:block;width:1px;height:38px;background:#969b92}.hero-water{position:absolute;inset:-20%;z-index:-1;filter:blur(12px);background:radial-gradient(ellipse at 46% 62%,#fff 0,transparent 50%),radial-gradient(ellipse at 80% 25%,#e6e5df66,transparent 40%)}.hero-water i{position:absolute;display:block;width:76%;height:58%;left:12%;top:25%;border-radius:47% 53% 59% 41%;border:24px solid #fff9;box-shadow:inset 12px 16px 35px #c6c8bd48,14px 20px 28px #d8d9d250;transform:rotate(-28deg);animation:water-drift 22s ease-in-out infinite alternate}.hero-water i:nth-child(2){width:58%;height:80%;left:27%;top:5%;border-width:15px;transform:rotate(38deg);animation-delay:-8s}.hero-water i:nth-child(3){width:90%;height:45%;left:-10%;top:43%;border-width:32px;animation-delay:-14s}@keyframes water-drift{to{translate:3% -3%;rotate:9deg;scale:1.08}}
+.prologue{padding:170px 24px 150px;text-align:center}.prologue h2{writing-mode:vertical-rl;text-align:start;display:inline-block;line-height:2.1;letter-spacing:.25em;font-size:29px}.prologue p{margin-top:72px;line-height:2.8;letter-spacing:.14em}.about{display:grid;grid-template-columns:1.2fr 1fr;gap:110px;align-items:center;padding-block:70px 180px}.about-photo img{width:100%;aspect-ratio:4/5;object-fit:cover}.about-content h2{margin:28px 0 38px}.about-content>p:last-child{font-size:15px;letter-spacing:.08em}.menu{padding-block:50px 180px}.section-heading{text-align:center;margin-bottom:100px}.section-heading h2{margin-top:25px}.dish-feature{display:grid;grid-template-columns:1.35fr 1fr;gap:100px;align-items:center}.toriten-photo img{width:100%;aspect-ratio:4/3;object-fit:cover}.dish-copy h3{margin:16px 0 28px}.dish-copy p{font-size:15px;letter-spacing:.06em}.dish-rule{display:none}.menu-secondary{margin-top:150px;display:grid;grid-template-columns:1.1fr .8fr;gap:130px;align-items:center;padding-left:12%}.deli img{width:100%;aspect-ratio:1;object-fit:cover}.secondary-copy{margin-top:36px}.secondary-copy h3{font-size:23px}.secondary-copy p{margin-top:20px;font-size:15px}.photo-note{display:block;margin-top:16px}.usuyaki h3{margin:18px 0 28px}.usuyaki p{font-size:15px}.usuyaki .menu-note{margin-top:40px;font-size:12px;color:var(--secondary)}.space{padding-block:60px 170px}.space-layout{display:grid;grid-template-columns:1fr 1.1fr;gap:100px;align-items:center}.space-copy h2{margin:28px 0 38px}.space-copy>p:last-child{font-size:15px}.space-photo img{aspect-ratio:1;width:100%;object-fit:cover}.info{padding-block:80px 140px;border-top:1px solid var(--line);display:grid;grid-template-columns:1.2fr .75fr;gap:130px;align-items:start}.info h2{margin-top:20px;font-size:26px}.info dl{margin:44px 0 0}.info dl>div{display:grid;grid-template-columns:100px 1fr;gap:16px;padding-block:20px;border-bottom:1px solid var(--line);font-size:14px}.info dt{font-size:12px;color:var(--secondary)}.info dd{margin:0;overflow-wrap:anywhere}.postcode{font-size:12px}.exterior-photo img{width:100%;aspect-ratio:3/4;object-fit:cover}.contact{padding:30px 24px 36px;text-align:center}.contact-main{padding-bottom:80px}.contact h2{font-size:12px;letter-spacing:.2em}.contact-phone{display:inline-block;font-size:26px;min-height:44px;padding:12px 0;margin-top:10px}.contact-name{font-size:13px;letter-spacing:.16em;margin-top:32px}.copyright{font-size:10px;letter-spacing:.12em;color:var(--secondary)}.mobile-phone{display:none}
+@media(max-width:900px){.section-container{width:calc(100% - 64px)}.about,.dish-feature,.space-layout{gap:55px}.menu-secondary,.info{gap:60px}.menu-secondary{padding-left:5%}}
+@media(max-width:600px){h2{font-size:25px}.section-container{width:calc(100% - 56px)}.hero{min-height:calc(100svh - 54px)}.hero-header{top:16px;right:20px}.header-phone{font-size:11px}.wordmark{height:180px}.shop-descriptor{font-size:10px;right:-27px}.hero-location{bottom:58px}.hero-water{inset:-15% -60%;filter:blur(11px)}.prologue{padding:110px 20px 95px}.prologue h2{font-size:25px;line-height:2.05}.prologue p{font-size:14px;letter-spacing:.08em;margin-top:48px}.about{display:flex;flex-direction:column;gap:48px;padding-block:30px 100px;align-items:stretch}.about-photo{width:90%;margin-left:-28px}.about-photo img{aspect-ratio:4/3}.about-content{padding-left:20px}.about-content h2{margin-block:22px 28px}.about-content>p:last-child{font-size:16px}.menu{padding-block:20px 100px}.section-heading{margin-bottom:55px}.dish-feature{display:block}.toriten-photo{margin-inline:-28px}.toriten-photo img{aspect-ratio:4/3}.toriten-photo figcaption{padding-left:28px}.dish-copy{padding:36px 12px 0}.dish-copy p,.secondary-copy p,.usuyaki p{font-size:16px}.dish-copy h3{margin:12px 0 20px}.menu-secondary{display:block;padding-left:0;margin-top:80px}.deli{width:92%;margin-left:auto}.secondary-copy{margin-top:28px}.usuyaki{margin:70px 12px 0;padding-block:35px;border-block:1px solid var(--line)}.space{padding-block:10px 100px}.space-layout{display:flex;flex-direction:column;gap:42px;align-items:stretch}.space-copy{padding-left:12px}.space-copy>p:last-child{font-size:16px}.space-copy h2{margin:24px 0 28px}.space-photo{width:90%;margin-left:auto;margin-right:-28px}.info{display:flex;flex-direction:column-reverse;gap:55px;padding-block:65px 80px}.exterior-photo{width:70%;margin:auto}.info-copy{width:100%}.info dl>div{grid-template-columns:76px minmax(0,1fr);gap:12px;font-size:16px}.contact{padding-bottom:calc(100px + env(safe-area-inset-bottom,0px))}.contact-main{padding-bottom:60px}.contact-phone{font-size:25px;max-width:100%}.mobile-phone{position:fixed;z-index:5;bottom:0;left:0;right:0;display:block;min-height:54px;padding:14px 20px calc(14px + env(safe-area-inset-bottom,0px));background:#fafaf8f5;border-top:1px solid var(--line);text-align:center;font-size:17px}.mobile-break{display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-water i{animation:none}}
+
+/* Wider artwork canvas prevents the shifted 州 from clipping; other glyphs stay put. */
+.shop-name{width:63.0769px}.wordmark{max-width:none;margin-left:-25.2308px}
+@media(max-width:600px){.shop-name{width:55.3846px}.wordmark{margin-left:-22.1538px}}
+
+/* Food photographs use the original about-section frame. */
+.about,.dish-feature,.menu-secondary{grid-template-columns:1.2fr 1fr;gap:110px}
+.menu-secondary{padding-left:0}
+.about-photo img,.toriten-photo img,.deli img{width:100%;aspect-ratio:4/5;object-fit:cover}
+@media(min-width:601px) and (max-width:900px){.about,.dish-feature,.menu-secondary{gap:55px}}
+@media(max-width:600px){.about{gap:48px}.about-photo,.toriten-photo,.deli figure{width:90%;margin-left:-28px;margin-right:0}.about-photo img,.toriten-photo img,.deli img{aspect-ratio:4/3}.toriten-photo figcaption{padding-left:28px}.deli{width:100%;margin:0}.menu-secondary{display:block}}
+
+/* Usuyaki follows the deli as a quiet, text-only feature. */
+.menu-secondary{row-gap:100px}
+.usuyaki{grid-column:1/-1;text-align:center;max-width:640px;width:100%;margin-inline:auto;padding-block:64px;border-block:1px solid var(--line)}
+.usuyaki h3{font-size:32px;margin:20px 0 30px;letter-spacing:.2em}
+.usuyaki>p:not(.menu-note){font-size:16px;line-height:2.6;letter-spacing:.08em}
+@media(max-width:600px){.usuyaki{margin:64px 0 0;padding-block:40px}.usuyaki h3{font-size:28px}.usuyaki>p:not(.menu-note){font-size:15px;letter-spacing:.03em}}
+
+/* Deli description sits alongside its photograph on wider screens. */
+.menu-secondary .deli{grid-column:1/-1;display:grid;grid-template-columns:1.2fr 1fr;gap:110px;align-items:center}
+.menu-secondary .secondary-copy{margin-top:0}
+@media(min-width:601px) and (max-width:900px){.menu-secondary .deli{gap:55px}}
+@media(max-width:600px){.menu-secondary .deli{display:block}.menu-secondary .secondary-copy{margin-top:28px}}
+
+/* A compact access map accompanies the address. */
+.access-map{width:100%;max-width:440px;margin-top:32px}
+.access-map iframe{display:block;width:100%;height:220px;border:0}
+@media(max-width:600px){.access-map{margin-top:28px}.access-map iframe{height:200px}}
+
+/* Two text-only specialties lead into the deli photographs. */
+.text-dish{max-width:640px;width:100%;margin-inline:auto;text-align:center;padding-block:64px;border-block:1px solid var(--line)}
+.text-dish h3{font-size:32px;letter-spacing:.2em;margin:20px 0 30px}
+.text-dish>p{font-size:16px;line-height:2.6;letter-spacing:.08em}
+.text-dish+.text-dish{border-top:0}
+@media(max-width:600px){.text-dish{padding-block:40px;margin-top:0}.text-dish h3{font-size:28px}.text-dish>p{font-size:15px;letter-spacing:.03em}}
+
+/* Center the whole food section, with deli copy above its photograph. */
+.menu-secondary{display:block;padding-left:0}
+.menu-secondary .deli{display:flex;flex-direction:column;gap:40px;text-align:center;width:100%;margin:0}
+.menu-secondary .secondary-copy{margin:0}
+.menu-secondary .deli figure{width:calc((100% - 110px)*1.2/2.2);margin:0 auto}
+@media(min-width:601px) and (max-width:900px){.menu-secondary .deli figure{width:calc((100% - 55px)*1.2/2.2)}}
+@media(max-width:600px){.menu-secondary .deli{display:flex;gap:32px}.menu-secondary .secondary-copy{margin:0}.menu-secondary .deli figure{width:90%;margin:0 auto}}
+
+/* Preserve the original 640 × 360 deli photograph ratio. */
+.menu-secondary .deli img{aspect-ratio:16/9;height:auto;object-fit:contain}
+
+/* Let the deli photograph fill the food-section content width. */
+.menu-secondary .deli figure{width:100%;margin-inline:auto}
+
+/* Crop the upper counter interior while retaining the foreground dishes. */
+.menu-secondary .deli img{aspect-ratio:5/2;height:auto;object-fit:cover;object-position:center 65%}
+
+/* Keep the existing portrait frame, with each dish in its own section. */
+.about-photo img{aspect-ratio:4/5;object-fit:cover;object-position:60% center}
+.toriten-menu-photo{width:100%;margin:40px auto 0}
+.toriten-menu-photo img{width:100%;aspect-ratio:4/5;object-fit:cover}
+@media(max-width:600px){.about-photo img,.toriten-menu-photo img{aspect-ratio:4/3}.toriten-menu-photo{width:90%;margin-top:32px}}
+
+/* Restore the toriten photograph-left, copy-right composition. */
+.toriten-layout+.usuyaki{margin-top:100px;border-top:1px solid var(--line)}
+@media(max-width:600px){.toriten-layout+.usuyaki{margin-top:64px}}
+
+/* Restore deli photograph-left and copy-right, retaining the chosen crop. */
+.menu-secondary .deli{display:grid;grid-template-columns:1.2fr 1fr;gap:110px;align-items:center;text-align:left}
+.menu-secondary .deli figure{grid-column:1;grid-row:1;width:100%;margin:0}
+.menu-secondary .secondary-copy{grid-column:2;grid-row:1;margin:0}
+@media(min-width:601px) and (max-width:900px){.menu-secondary .deli{gap:55px}}
+@media(max-width:600px){.menu-secondary .deli{display:flex;flex-direction:column;gap:28px;align-items:stretch}.menu-secondary .deli figure{order:0}.menu-secondary .secondary-copy{order:1}}
+
+/* Match the deli frame to the toriten photograph. */
+.menu-secondary .deli img{aspect-ratio:4/5;object-fit:cover;object-position:center 65%}
+@media(max-width:600px){.menu-secondary .deli img{aspect-ratio:4/3}}
+
+/* Quiet, once-only entrance motion; layout stays in normal document flow. */
+.scroll-reveal{opacity:0;transform:translate3d(0,22px,0);transition:opacity 1.15s cubic-bezier(.22,1,.36,1) var(--reveal-delay,0ms),transform 1.4s cubic-bezier(.22,1,.36,1) var(--reveal-delay,0ms)}
+.scroll-reveal.is-revealed{opacity:1;transform:translate3d(0,0,0)}
+.verse-fragment{display:inline-block}
+.verse-reveal .verse-fragment{opacity:0;filter:blur(4px);transform:translate3d(0,18px,0);transition:opacity 1.65s cubic-bezier(.22,1,.36,1) var(--verse-delay),filter 1.8s ease var(--verse-delay),transform 1.9s cubic-bezier(.22,1,.36,1) var(--verse-delay)}
+.verse-reveal.is-revealed .verse-fragment{opacity:1;filter:blur(0);transform:translate3d(0,0,0)}
+.prologue>p.scroll-reveal{--reveal-delay:500ms!important}
+@media(prefers-reduced-motion:reduce){.scroll-reveal,.verse-reveal .verse-fragment{opacity:1;transform:none;filter:none;transition:none}}
+@media print{.scroll-reveal,.verse-reveal .verse-fragment{opacity:1;transform:none;filter:none;transition:none}}

@@ -89,3 +89,18 @@
 .prologue>p.scroll-reveal{--reveal-delay:500ms!important}
 @media(prefers-reduced-motion:reduce){.scroll-reveal,.verse-reveal .verse-fragment{opacity:1;transform:none;filter:none;transition:none}}
 @media print{.scroll-reveal,.verse-reveal .verse-fragment{opacity:1;transform:none;filter:none;transition:none}}
+
+/* Mobile: consistent centered photographs, copy and access information. */
+@media(max-width:600px){
+  .hero-header{left:20px;right:20px;display:flex;justify-content:center}
+  .header-phone{text-align:center}
+  .about-content,.dish-copy,.space-copy{padding-left:0;padding-right:0;text-align:center}
+  .about-photo,.toriten-photo,.space-photo,.exterior-photo,
+  .menu-secondary .deli figure{width:100%;margin:0 auto}
+  .about-content,.space-copy,.info-copy,.menu-secondary .secondary-copy{width:100%;text-align:center}
+  .menu-secondary .deli{text-align:center}
+  .info dl>div{display:block;text-align:center}
+  .info dt{margin-bottom:8px}
+  .access-map{margin-inline:auto}
+  .section-heading,.text-dish,.contact{text-align:center}
+}
